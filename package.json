@@ -1,0 +1,51 @@
+{
+  "name": "angular-cli-esri-map",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^18.2.7",
+    "@angular/common": "^18.2.7",
+    "@angular/compiler": "^18.2.7",
+    "@angular/core": "^18.2.7",
+    "@angular/forms": "^18.2.7",
+    "@angular/platform-browser": "^18.2.7",
+    "@angular/platform-browser-dynamic": "^18.2.7",
+    "@angular/router": "^18.2.7",
+    "@arcgis/core": "^4.30.9",
+    "@types/arcgis-js-api": "^4.17.0",
+    "esri-loader": "^2.16.0",
+    "minimist": "^1.2.5",
+    "rxjs": "^6.5.5",
+    "tslib": "^2.0.0",
+    "zone.js": "^0.14.10"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^18.2.6",
+    "@angular/cli": "^14.2.13",
+    "@angular/compiler-cli": "^18.2.7",
+    "@angular/language-service": "^18.2.7",
+    "@types/jasmine": "~3.6.0",
+    "@types/jasminewd2": "^2.0.8",
+    "@types/node": "^12.12.35",
+    "codelyzer": "^0.0.28",
+    "jasmine-core": "~3.6.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "karma": "^6.4.4",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage-istanbul-reporter": "~3.0.2",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "protractor": "^7.0.0",
+    "ts-node": "~7.0.0",
+    "tslint": "~6.1.0",
+    "typescript": "~5.4.5"
+  }
+}
